@@ -62,12 +62,16 @@ figcaption{
     height: 100%;
     display: flex;
     align-items: stretch;
+    overflow: hidden;
+    background: var(--CREAM);
 }
 
 .card .card-header .card__img img{
     width: 200px;
     height: 100%;
     object-fit: cover;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
 }
 .card .card__body {
     margin: 3px 30px;
@@ -142,6 +146,9 @@ figcaption{
     .card .card-header .card__img{
         background: url(images/image-product-mobile.jpg) center / cover no-repeat;
         height: 35vh;
+        border-top-left-radius:10px ;
+        border-top-right-radius:10px ;
+
     }
     .card-header .card__img img{
         display: none;
